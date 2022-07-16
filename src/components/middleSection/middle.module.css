@@ -4,25 +4,38 @@
     display: flex;
    border-bottom: 1px solid rgb(93, 93, 93);
 }
-@media only screen and (max-width: 600px) {
-  .MiddleSection{  
-    flex-direction: column;
-}
-  
-}
+
 .captionSection{
   flex: 1;
- 
-  height: 100%;
+  min-height: 5rem;
+}
+.videoSection{
+  flex: 1;
+  border-top: 1px solid rgb(93, 93, 93);
   
-
 }
 
+.captionSection{
+  flex: 1; 
+  height: 100%;
+}
 .videoSection{
   flex: 1;
   border-left: 1px solid rgb(93, 93, 93);
   height: 100%;
   background-color: #191919;
 
+}
+@media only screen and (max-width: 600px) {
+  .MiddleSection{  
+    
+    display: flex;
+    flex-direction: column;
+   border-bottom: 1px solid rgb(93, 93, 93);
+}
+.videoSection{
+ margin-top: 1rem;
+}
+  
 }
   

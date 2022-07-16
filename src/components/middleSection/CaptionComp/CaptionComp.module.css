@@ -120,11 +120,23 @@
     height: 1.5rem;
     background-color: transparent;
     text-align: center;
+    min-width: 2rem;
     color: aliceblue;
     border : 1px solid rgb(93, 93, 93);
     outline: none;
     
 }
+@media only screen and (max-width: 600px) {
+    .timer > input{
+        display: none; 
+    }
+    .timer{
+        
+        flex-grow: 6 ;
+        
+     }
+  }
+    
 
 
 
