@@ -2,18 +2,22 @@
     width: 100%;
     height: 60%;
     display: flex;
+   border-bottom: 1px solid rgb(93, 93, 93);
+
 }
 .captionSection{
   flex: 1;
  
   height: 100%;
+  
 
 }
 
 .videoSection{
   flex: 1;
-  background-color: aquamarine;
+  border-left: 1px solid rgb(93, 93, 93);
   height: 100%;
+  background-color: #191919;
 
 }
   

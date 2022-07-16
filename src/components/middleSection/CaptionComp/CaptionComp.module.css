@@ -1,0 +1,129 @@
+.CaptionComp{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    height: 100%;
+}
+
+.CaptionHeaderOptions{
+    display: flex;
+    margin-bottom: 0.9rem;
+    justify-content: space-between;
+}
+.CaptionHeaderOptions > .navSection{
+    display: flex;
+    align-items: center;
+}
+.threedotIcon{
+    margin-left: 10px;
+}
+
+.addCaption_btn{
+    background-color:transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.addIcon{
+    color: rgb(0, 115, 215) ;
+    margin-right: 4px;
+}
+
+.CaptionHeaderOptions  p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: rgb(0, 115, 215) ;    
+}
+
+
+
+
+
+ /* Caption Comtainer Style */
+
+
+.CaptionContainer{
+    /* background-color: aqua; */
+    flex: 1;
+    overflow-y: scroll;
+    
+ }
+
+ .CaptionContainer::-webkit-scrollbar-track {
+    background-color: #282828;
+  }
+  
+  .CaptionContainer::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .CaptionContainer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #737272;
+    border: 1px solid #000;
+  }
+
+ /* Individual Caption Comtainer Style */
+
+
+ .EditCaption{
+    display: flex;
+    /* background-color: dimgray; */
+    align-items: stretch;
+    padding: 0 1rem;
+    margin-top: 1rem;
+ }
+ /* .EditCaption > *{
+    flex-grow: 1;
+ } */
+ 
+ .deleteIcon{
+    display: flex;
+    align-items: center;
+    margin: 0 0.5rem;
+
+}
+ .EditCaption > input{
+    flex-grow: 3 ;
+    outline: none;
+    border : 1px solid rgb(93, 93, 93);
+    padding: 0 3px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+
+    height: 4rem;
+    border-radius: 4px;
+    color: white;
+ }
+ .EditCaption > input:focus{
+    border: 1px solid rgb(0, 115, 215) ;
+    outline: none;
+ }
+
+ .timer{
+    display: flex;
+    flex-grow: 1 ;
+    width: 0;
+    /* background-color: rgb(138, 14, 121); */
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .timer > input{
+    border-radius: 4px;
+    height: 1.5rem;
+    background-color: transparent;
+    text-align: center;
+    color: aliceblue;
+    border : 1px solid rgb(93, 93, 93);
+    outline: none;
+    
+}
+
+
+

@@ -15,7 +15,7 @@ export const Header = () => {
 const HeaderRight = () => {
   return (
     <div className={style.headerRight}>
-      <MdOutlineSubtitles size={25} color={"blue"} />
+      <MdOutlineSubtitles size={25} color={"rgb(0, 115, 215) "} />
       <p>English (India)</p>
     </div>
   );
@@ -25,7 +25,7 @@ const HeaderLeft = () => {
     <div className={style.headerLeft}>
       <BsExclamationSquareFill color={"grey"} />
       <p>Save Draft</p>
-      <button>Publish</button>
+      <button>PUBLISH</button>
       <IoClose size={25} />
     </div>
   );

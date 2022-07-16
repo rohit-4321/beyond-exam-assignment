@@ -1,7 +1,106 @@
 .bottomSection{
-    background-color: rgb(40, 57, 21);
+    /* background-color: rgb(40, 57, 21); */
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 30%;;
-  
-  
+    border-radius: 10px;
   }
+
+  .bottomSection > :nth-child(2){
+    margin-top: auto;
+    border-bottom: 1px solid rgb(93, 93, 93);
+    border-top: 1px solid rgb(93, 93, 93)
+  }
+
+
+
+
+
+
+
+  .bottomSection > :nth-child(3){
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(93, 93, 93);
+  }
+
+
+
+  .BottomHead{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 1rem;
+  }
+  .BottomHead > *{
+    margin-right: 1rem;
+  }
+
+  .BottomHead > input{
+    border-radius: 4px;
+    height: 1.5rem;
+    background-color: transparent;
+    text-align: center;
+    color: aliceblue;
+    border : 1px solid rgb(93, 93, 93);
+    outline: none;
+    width: 10%;
+
+  }
+
+
+  .BottomHead > :last-child{
+    margin-left: auto;
+  }
+  .UndoRedo{
+    display: flex;
+    align-items: center;
+  }
+  .UndoRedo > p{
+    margin-left: 0.5rem;
+    color: grey;
+  }
+  .sliderContainer{
+    display: flex;
+    width: 200px;
+    align-items: center;
+  }
+  .sliderContainer > .slider{
+    margin: 0 1rem;
+    color: white;
+  }
+  
+/* Caption Track */
+
+/* .bottomSection :nth-child(2){
+  margin-top: auto;
+} */
+
+.Track{
+  display: flex;
+}
+.iconDiv{
+  display:flex;
+  border-right : 1px solid rgb(93, 93, 93);
+  align-items: center;
+  height: 3rem;
+  flex-grow: 1;
+
+}
+.iconDiv > #icon{
+  margin-left: 1rem;
+}
+.captionTrack{
+  height:3rem;
+  flex-grow:17;
+}
+
+.captionIconDiv{
+  position: relative;
+}
+.captionIconDiv::after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  background-color: rgb(14, 125, 223);
+}

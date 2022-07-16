@@ -3,7 +3,7 @@
     padding: 0.9rem 1.3rem;
 }
 .OptionSelection >  p{
-    color:#717171 ;
+    color:#999999 ;
     margin-bottom: 1rem;
 }
 .OptionSelection > :last-child{
@@ -15,13 +15,20 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    cursor: pointer;
 }
 
-.OptionComp > p{
+.OptionComp > .title{
     color: white;
     font-size: 0.8rem;
 
 }
+.OptionComp > .titleFade{
+    color: rgb(108, 108, 108);
+    font-size: 0.8rem;
+
+}
+
 .OptionComp :last-child{
     margin-left: auto;
 }
