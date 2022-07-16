@@ -2,6 +2,7 @@ import React from "react";
 import style from "./bottom.module.css";
 import { Bottomhead } from "./BottomHead";
 import { MdOutlineSubtitles } from "react-icons/md";
+
 import { IoMdMusicalNote } from "react-icons/io";
 
 function Bottom() {
