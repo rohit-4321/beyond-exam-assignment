@@ -105,8 +105,18 @@ const EditCaption = ({ index, value, setCaptions, captions }) => {
 const Timer = () => {
   return (
     <div className={style.timer}>
-      <input className={style.commonCaptionInput} type="text" value={"00.10"} />
-      <input className={style.commonCaptionInput} type="text" value={"00:20"} />
+      <input
+        className={style.commonCaptionInput}
+        type="text"
+        value={"00.10"}
+        readOnly
+      />
+      <input
+        className={style.commonCaptionInput}
+        type="text"
+        value={"00:20"}
+        readOnly
+      />
     </div>
   );
 };

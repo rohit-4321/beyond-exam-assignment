@@ -7,7 +7,7 @@ export const VideoComp = () => {
       <iframe
         className={style.frame}
         src="https://www.youtube.com/embed/E7wJTI-1dvQ"
-        frameborder="0"
+        frameBorder="0"
         allow="autoplay; encrypted-media"
         title="video"
       />

@@ -7,7 +7,7 @@ import { FaSearchPlus, FaSearchMinus } from "react-icons/fa";
 export const Bottomhead = () => {
   return (
     <div className={style.BottomHead}>
-      <input type="text" value={"0:00:00"} />
+      <input type="text" value={"0:00:00"} readOnly />
       <Undo />
       <Redo />
       <ScreenSlider />

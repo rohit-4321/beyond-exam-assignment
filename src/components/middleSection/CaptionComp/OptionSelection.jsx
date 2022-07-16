@@ -6,7 +6,7 @@ import { BsStars } from "react-icons/bs";
 
 export const OptionSelection = ({ openCaptionEditor }) => {
   return (
-    <div class={style.OptionSelection}>
+    <div className={style.OptionSelection}>
       <p> Select how you want to add captions</p>
       <OptionComp Icon={MdFileUpload} title="Upload file" isFade={true} />
       <OptionComp Icon={BsStars} title="Auto-sync" isFade={true} />
@@ -27,7 +27,7 @@ export const OptionSelection = ({ openCaptionEditor }) => {
 
 const OptionComp = ({ title, Icon, onClick, isFade }) => {
   return (
-    <div class={style.OptionComp} onClick={onClick}>
+    <div className={style.OptionComp} onClick={onClick}>
       <Icon size={22} color={isFade ? "#535353" : "#a0a0a0"} />
       <p className={isFade ? style.titleFade : style.title}>{title}</p>
       <VscQuestion size={20} color="grey" />
