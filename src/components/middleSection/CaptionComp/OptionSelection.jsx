@@ -8,8 +8,18 @@ export const OptionSelection = ({ openCaptionEditor }) => {
   return (
     <div className={style.OptionSelection}>
       <p> Select how you want to add captions</p>
-      <OptionComp Icon={MdFileUpload} title="Upload file" isFade={true} />
-      <OptionComp Icon={BsStars} title="Auto-sync" isFade={true} />
+      <OptionComp
+        Icon={MdFileUpload}
+        onClick={openCaptionEditor}
+        title="Upload file"
+        isFade={true}
+      />
+      <OptionComp
+        Icon={BsStars}
+        onClick={openCaptionEditor}
+        title="Auto-sync"
+        isFade={true}
+      />
       <OptionComp
         Icon={MdKeyboard}
         title="Type Manually"
@@ -19,6 +29,7 @@ export const OptionSelection = ({ openCaptionEditor }) => {
       <OptionComp
         Icon={MdOutlineTranslate}
         title="Auto-translate"
+        onClick={openCaptionEditor}
         isFade={true}
       />
     </div>

@@ -38,7 +38,7 @@
     margin-left: 1rem;
 
 }
-.checkBoxSection > input{
-    margin-right: 5px;
+.checkBoxSection > span{
+    margin-left: 8px;
 
 }

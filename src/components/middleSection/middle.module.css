@@ -3,7 +3,12 @@
     height: 60%;
     display: flex;
    border-bottom: 1px solid rgb(93, 93, 93);
-
+}
+@media only screen and (max-width: 600px) {
+  .MiddleSection{  
+    flex-direction: column;
+}
+  
 }
 .captionSection{
   flex: 1;
